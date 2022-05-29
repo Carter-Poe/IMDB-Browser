@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace FormInterface.Views.Pages
+namespace FormInterface.Views.PageViews
 {
     public partial class CalenderPage : UserControl
     {
         public CalenderPage()
         {
             InitializeComponent();
+        }
+
+        private void CalenderPage_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

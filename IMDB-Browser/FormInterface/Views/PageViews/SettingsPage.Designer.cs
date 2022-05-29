@@ -1,6 +1,6 @@
-﻿namespace FormInterface.Views.Pages
+﻿namespace FormInterface.Views.PageViews
 {
-    partial class CalenderPage
+    partial class SettingsPage
     {
         /// <summary> 
         /// Required designer variable.
@@ -28,8 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // SettingsPage
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
+            this.Name = "SettingsPage";
+            this.Size = new System.Drawing.Size(831, 486);
+            this.Load += new System.EventHandler(this.SettingsPage_Load);
+            this.ResumeLayout(false);
+
         }
 
         #endregion

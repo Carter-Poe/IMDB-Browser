@@ -20,29 +20,29 @@ namespace FormInterface.Views
             InitializeComponent();
 
             //Dashboard Button
-            lbl_dashboard.Click += controlsHandler.SelectStripPanel;
-            pb_dashboard.Click += controlsHandler.SelectStripPanel;
-            pnl_dashboard.Click += controlsHandler.SelectStripPanel;
+            lbl_dashboard.Click += controlsHandler.ClickStripPanel;
+            pb_dashboard.Click += controlsHandler.ClickStripPanel;
+            pnl_dashboard.Click += controlsHandler.ClickStripPanel;
             pnl_dashboard.MouseEnter += controlsHandler.SelectStripPanel;
             pnl_dashboard.MouseLeave += controlsHandler.UnselectStripPanel;
 
             //Browse Button
-            lbl_browse.Click += controlsHandler.SelectStripPanel;
-            pb_browse.Click += controlsHandler.SelectStripPanel;
-            pnl_browse.Click += controlsHandler.SelectStripPanel;
+            lbl_browse.Click += controlsHandler.ClickStripPanel;
+            pb_browse.Click += controlsHandler.ClickStripPanel;
+            pnl_browse.Click += controlsHandler.ClickStripPanel;
             pnl_browse.MouseEnter += controlsHandler.SelectStripPanel;
             pnl_browse.MouseLeave += controlsHandler.UnselectStripPanel;
 
             //Calender Button
-            lbl_calender.Click += controlsHandler.SelectStripPanel;
-            pb_calender.Click += controlsHandler.SelectStripPanel;
-            pnl_calender.Click += controlsHandler.SelectStripPanel;
+            lbl_calender.Click += controlsHandler.ClickStripPanel;
+            pb_calender.Click += controlsHandler.ClickStripPanel;
+            pnl_calender.Click += controlsHandler.ClickStripPanel;
             pnl_calender.MouseEnter += controlsHandler.SelectStripPanel;
             pnl_calender.MouseLeave += controlsHandler.UnselectStripPanel;
 
             //Settings Button
-            pb_settings.Click += controlsHandler.SelectStripPanel;
-            pnl_settings.Click += controlsHandler.SelectStripPanel;
+            pb_settings.Click += controlsHandler.ClickStripPanel;
+            pnl_settings.Click += controlsHandler.ClickStripPanel;
             pnl_settings.MouseEnter += controlsHandler.SelectStripPanel;
             pnl_settings.MouseLeave += controlsHandler.UnselectStripPanel;
         }

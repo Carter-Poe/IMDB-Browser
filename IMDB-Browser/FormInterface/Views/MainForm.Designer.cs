@@ -40,6 +40,7 @@
             this.pnl_dashboard = new System.Windows.Forms.Panel();
             this.pb_dashboard = new System.Windows.Forms.PictureBox();
             this.lbl_dashboard = new System.Windows.Forms.Label();
+            this.pnl_pageview = new System.Windows.Forms.Panel();
             this.pnl_toolstrip.SuspendLayout();
             this.pnl_settings.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_settings)).BeginInit();
@@ -95,6 +96,7 @@
             // 
             // pb_calender
             // 
+            this.pb_calender.BackColor = System.Drawing.Color.Transparent;
             this.pb_calender.BackgroundImage = global::FormInterface.Properties.Resources.baseline_calendar_today_white_24dp;
             this.pb_calender.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pb_calender.Location = new System.Drawing.Point(8, 7);
@@ -106,6 +108,7 @@
             // lbl_calender
             // 
             this.lbl_calender.AutoSize = true;
+            this.lbl_calender.BackColor = System.Drawing.Color.Transparent;
             this.lbl_calender.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbl_calender.ForeColor = System.Drawing.Color.White;
             this.lbl_calender.Location = new System.Drawing.Point(36, 7);
@@ -126,6 +129,7 @@
             // 
             // pb_browse
             // 
+            this.pb_browse.BackColor = System.Drawing.Color.Transparent;
             this.pb_browse.BackgroundImage = global::FormInterface.Properties.Resources.baseline_explore_white_24dp;
             this.pb_browse.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pb_browse.Location = new System.Drawing.Point(8, 7);
@@ -137,6 +141,7 @@
             // lbl_browse
             // 
             this.lbl_browse.AutoSize = true;
+            this.lbl_browse.BackColor = System.Drawing.Color.Transparent;
             this.lbl_browse.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbl_browse.ForeColor = System.Drawing.Color.White;
             this.lbl_browse.Location = new System.Drawing.Point(36, 7);
@@ -157,6 +162,7 @@
             // 
             // pb_dashboard
             // 
+            this.pb_dashboard.BackColor = System.Drawing.Color.Transparent;
             this.pb_dashboard.BackgroundImage = global::FormInterface.Properties.Resources.baseline_dashboard_white_24dp;
             this.pb_dashboard.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pb_dashboard.Location = new System.Drawing.Point(8, 7);
@@ -168,6 +174,7 @@
             // lbl_dashboard
             // 
             this.lbl_dashboard.AutoSize = true;
+            this.lbl_dashboard.BackColor = System.Drawing.Color.Transparent;
             this.lbl_dashboard.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbl_dashboard.ForeColor = System.Drawing.Color.White;
             this.lbl_dashboard.Location = new System.Drawing.Point(36, 7);
@@ -176,12 +183,21 @@
             this.lbl_dashboard.TabIndex = 1;
             this.lbl_dashboard.Text = "Dashboard";
             // 
+            // pnl_pageview
+            // 
+            this.pnl_pageview.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnl_pageview.Location = new System.Drawing.Point(0, 37);
+            this.pnl_pageview.Name = "pnl_pageview";
+            this.pnl_pageview.Size = new System.Drawing.Size(831, 486);
+            this.pnl_pageview.TabIndex = 1;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
             this.ClientSize = new System.Drawing.Size(831, 523);
+            this.Controls.Add(this.pnl_pageview);
             this.Controls.Add(this.pnl_toolstrip);
             this.Name = "MainForm";
             this.Text = "IMDB Notifier";
@@ -216,5 +232,6 @@
         private Panel pnl_dashboard;
         private PictureBox pb_dashboard;
         private Label lbl_dashboard;
+        private Panel pnl_pageview;
     }
 }

@@ -17,3 +17,7 @@ C:\Users\gamec\Desktop\IMDB-Browser\IMDB-Browser\IMDB-Browser\FormInterface\obj\
 C:\Users\gamec\Desktop\IMDB-Browser\IMDB-Browser\IMDB-Browser\FormInterface\obj\Debug\net6.0-windows\FormInterface.pdb
 C:\Users\gamec\Desktop\IMDB-Browser\IMDB-Browser\IMDB-Browser\FormInterface\obj\Debug\net6.0-windows\FormInterface.genruntimeconfig.cache
 C:\Users\gamec\Desktop\IMDB-Browser\IMDB-Browser\IMDB-Browser\FormInterface\obj\Debug\net6.0-windows\ref\FormInterface.dll
+C:\Users\gamec\Desktop\IMDB-Browser\IMDB-Browser\IMDB-Browser\FormInterface\obj\Debug\net6.0-windows\FormInterface.Views.PageViews.BrowsePage.resources
+C:\Users\gamec\Desktop\IMDB-Browser\IMDB-Browser\IMDB-Browser\FormInterface\obj\Debug\net6.0-windows\FormInterface.Views.PageViews.CalenderPage.resources
+C:\Users\gamec\Desktop\IMDB-Browser\IMDB-Browser\IMDB-Browser\FormInterface\obj\Debug\net6.0-windows\FormInterface.Views.PageViews.DashboardPage.resources
+C:\Users\gamec\Desktop\IMDB-Browser\IMDB-Browser\IMDB-Browser\FormInterface\obj\Debug\net6.0-windows\FormInterface.Views.PageViews.SettingsPage.resources
